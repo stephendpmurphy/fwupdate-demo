@@ -1,0 +1,30 @@
+{
+  "name": "fwupdate-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "install": "electron-rebuild",
+    "start": "electron . development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephendpmurphy/fwupdate-demo.git"
+  },
+  "author": "stephendpmurphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephendpmurphy/fwupdate-demo/issues"
+  },
+  "homepage": "https://github.com/stephendpmurphy/fwupdate-demo#readme",
+  "devDependencies": {
+    "electron-rebuild": "^3.2.3",
+    "electron-reloader": "^1.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "electron": "^15.3.0",
+    "marked": "^3.0.7"
+  }
+}
