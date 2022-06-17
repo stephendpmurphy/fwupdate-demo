@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "axios": "^0.23.0",
-    "electron": "^15.3.5",
+    "electron": "^15.5.5",
     "marked": "^4.0.10"
   }
 }
